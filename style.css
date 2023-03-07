@@ -129,12 +129,11 @@ header{
     text-align: center;
     width: 100%;
     border-radius: 1px;
+    background-position: center;
   }
   .main{
-    width:auto;
-    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(5, 5, 5, 0.5)50%),url(bg_!.png);
-    background-position: center;
-    height: 109dvb;
+    width:url(bg_!.png);
+    background-position: 100%;
   }
   .nav a{
     display: block;
@@ -145,6 +144,11 @@ header{
   }
   .h1{
     width:auto;
+  }
+  .c1{
+    width: auto;
+    background-position: center;
+    background-size: cover;
   }
   .motive{
     margin-left:auto;
