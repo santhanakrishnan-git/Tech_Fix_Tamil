@@ -150,10 +150,8 @@ header{
     float: none;
     display: none;
     text-align: center;
-    width: 100%;
+    width: auto;
     border-radius: 1px;
-   
-    
   }
   .main{
     background-position: auto;
@@ -181,23 +179,22 @@ header{
     font-size: small;
   }
   .nav :hover{
-    border-radius:5px;
-    background-color: grey;
-    padding-left:10px;
+    background-color: rgba(216, 2, 2, 0);
+    border-bottom: 4px solid rgb(151, 148, 148);
+    padding-left:5px;
     transition: 0.5s;
   }
   header{
     display: flex;
+    justify-content: space-between;
     width: auto;
     height: auto;
     border-radius:5px;
     margin: 0%;
     text-align: center;
-    transition: 200ms;
   }
   .logo img{
-    width: 15%;  
-    float: left;
+    width: 70px;  
     margin:2%;
   }
 
@@ -205,8 +202,9 @@ header{
     display: none;
   }
   .container {
-    display: inline-block;
+    display:block;
     cursor: pointer;
-    margin: 4%;
+    margin: 3%;
+   
   }
   }
