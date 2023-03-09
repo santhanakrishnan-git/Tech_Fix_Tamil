@@ -66,17 +66,16 @@ header{
   text-align: center;
   -webkit-text-stroke: 0.1px;
   -webkit-text-stroke-color: black;
-  border-bottom: 0px solid black;
 }
 .icon{
   display: none;
 }
 .nav :hover{
-  
-  
-  transition: 0.5s;
-  padding-inline: 1%;
-  border-bottom: 3px solid black;
+  transition: 300ms;
+  padding: 20px 40px;
+  background-color: rgba(231, 231, 229, 0.753);
+  border-radius: 5px;
+  color: black;
 
 }
 .h1 {
@@ -122,14 +121,39 @@ header{
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: black;
 }
+.container {
+  display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
 
 @media screen and (max-width:944px)  {
   .nav {
     float: none;
-    display:block;
+    display: none;
     text-align: center;
     width: 100%;
     border-radius: 1px;
+   
+    
   }
   .main{
     background-position: auto;
@@ -137,6 +161,7 @@ header{
   }
   .nav a{
     display: block;
+    
   }
   .h1 h1{
     font-size: medium;
@@ -158,10 +183,11 @@ header{
   .nav :hover{
     border-radius:5px;
     background-color: grey;
-    padding-left:20px ;
+    padding-left:10px;
+    transition: 0.5s;
   }
   header{
-    display: block;
+    display: flex;
     width: auto;
     height: auto;
     border-radius:5px;
@@ -171,8 +197,16 @@ header{
   }
   .logo img{
     width: 15%;  
+    float: left;
+    margin:2%;
   }
+
   .ytlogo{
     display: none;
   }
-}
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    margin: 4%;
+  }
+  }
