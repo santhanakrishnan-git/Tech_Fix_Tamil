@@ -1,4 +1,12 @@
-
+function myfun() {
+    var z=document.getElementById("id1");
+    if(z.style.display=="block"){
+        z.style.display="none"; 
+    }else{
+        z.style.display="block";
+    }
+    
+  }
   
 function icon_fun(y) {
     var x=document.getElementById("nav-bar");

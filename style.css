@@ -9,10 +9,7 @@
   background-size:cover ;
 
 }
-header{
-  width: auto;
-  background-position: 95%;
-} 
+
 header{
   margin: auto;
   display: flex;
@@ -137,7 +134,6 @@ header{
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
-
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
