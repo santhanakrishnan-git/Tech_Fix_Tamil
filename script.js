@@ -5,9 +5,7 @@ function myfun() {
     }else{
         z.style.display="block";
     }
-    
-  }
-  
+}
 function icon_fun(y) {
     var x=document.getElementById("nav-bar");
     if(x.style.display=="block"){
