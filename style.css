@@ -204,7 +204,8 @@ header{
   .container {
     display:block;
     cursor: pointer;
-    margin: 3%;
-   
+    width: auto;
+    height: auto;
+    margin: 4%;
   }
   }
