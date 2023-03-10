@@ -3,14 +3,13 @@
   padding: 0;
 }
 .main{
-  background:linear-gradient(rgba(250, 250, 250, 0.267),rgba(0, 0, 0, 0.425)),url(bg_!.png);
+  background-color: rgba(94, 97, 99, 0.849);
   width: 100%;
-  height: 109dvh;
-  background-size:cover ;
-
+  height: auto;
 }
 
 header{
+  background:linear-gradient(rgba(0, 0, 0, 0.267),rgba(128, 124, 124, 0.425));
   margin: auto;
   display: flex;
   margin-left: 10px;
@@ -19,11 +18,50 @@ header{
   border-top-right-radius:10px ;
   border-bottom-right-radius:10px ;
   height: 70px;
+  width: auto;
   background-color: rgba(245, 245, 220, 0.137);
+
 }
+hr.borderline{
+	border: 1px solid rgba(117, 114, 114, 0.473);
+  padding-top: 10px;
+  width: 100%;
+  }
 .c1{
+  padding-top: 10px;
   width: auto;
   display: none;
+  background:linear-gradient(rgba(255, 255, 255, 0.267),rgba(0, 0, 0, 0.425)),url(bg_!.png);
+  height: auto;
+  background-size:cover;
+  background-position: 100%;
+}
+.c2{
+  padding-top: 10px;
+  width: auto;
+  display: none;
+  background:linear-gradient(rgba(0, 0, 0, 0.911),rgba(0, 0, 0, 0.048)),url(bg_2.jpg);
+  height: auto;
+  background-size:cover;
+  background-position: 100%;
+}
+.c3{
+  padding-top: 10px;
+  width: auto;
+  display: none;
+  background:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.479)),url(bg3.jpg);
+  height: auto;
+  background-size:cover;
+  background-position: 100%;
+}
+.c4{
+  padding-top: 10px;
+  width: auto;
+  display: none;
+  background:linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.247)),url(bg4.jpg);
+  height: auto;
+  background-size:cover;
+  background-position: 100%;
 }
 
 .nav{
@@ -32,7 +70,6 @@ header{
   overflow: auto;
   justify-content: space-around;
   display: flex;  
-  
 }
 .logo img{
   width: 70px;
@@ -78,7 +115,6 @@ header{
 .h1 {
   text-align: center;
   transition: .5s;
-  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   width:20%;
@@ -118,6 +154,9 @@ header{
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: black;
 }
+.videos{
+  align-items: center;
+}
 .container {
   display: none;
   cursor: pointer;
@@ -146,7 +185,7 @@ header{
     float: none;
     display: none;
     text-align: center;
-    width: auto;
+    width: 100%;
     border-radius: 1px;
   }
   .main{
@@ -166,6 +205,7 @@ header{
   }
   .c1{
     width: auto;
+    display:none;
   }
   .motive{
     margin-left:auto;
