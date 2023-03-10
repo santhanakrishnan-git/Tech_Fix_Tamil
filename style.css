@@ -154,8 +154,35 @@ hr.borderline{
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: black;
 }
-.videos{
-  align-items: center;
+.videos h2{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.contact h3{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px;
+}
+.copyright{
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.copyright h2{
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+
 }
 .container {
   display: none;
