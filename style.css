@@ -47,6 +47,7 @@ hr.borderline{
 }
 .c3{
   padding-top: 10px;
+  padding-bottom: 20px;
   width: auto;
   display: none;
   background:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.479)),url(bg3.jpg);
@@ -55,7 +56,6 @@ hr.borderline{
   background-position: 100%;
 }
 .c4{
-  padding-top: 10px;
   width: auto;
   display: none;
   background:linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.247)),url(bg4.jpg);
@@ -153,23 +153,39 @@ hr.borderline{
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: black;
 }
-.videos{
-  justify-content: space-between;
+
+.videos ul{
+  justify-content: space-evenly;
+  list-style: none;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 4%;
+  margin-right: 4%;
 }
+.videos ul li{
+  text-align: center;
+}
+.videos ul li h2 :hover{
+  color: black;
+  background-color: beige;
+}
+
 .videos img{
-  margin: 10px;
-  width:480px; 
+  margin: 30px;
+  width:500px; 
   height:300px;
-  border: 2px solid black;
+  border: 3px double black;
 }
-.videos h2{
+.videos h2 a{
   color: white;
   font-family: 'Times New Roman', Times, serif;
-  font-size: large;
+  font-size: 22px;
   text-decoration: none;
   font-weight: 600;
-  padding: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border:2px solid white;
 }
 
 .contact h3{
@@ -241,7 +257,7 @@ footer p{
     -webkit-text-stroke: 0.1px black;
   }
   .h1{
-    width:auto;
+    width: fit-content;
   }
   .c1{
     width: auto;
@@ -284,4 +300,26 @@ footer p{
     height: auto;
     margin: 4%;
   }
+  .videos ul li h2 {
+    text-align: center;
+    width: fit-content;
+  }
+  .videos img{
+    margin: 20px;
+    width:300px; 
+    height:200px;
+    border: 3px double black;
+  }
+  .videos h2 a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 4px;
+    border:2px solid white;
+    
+  }
+
   }
