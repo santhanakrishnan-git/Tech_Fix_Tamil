@@ -133,9 +133,7 @@ hr.borderline{
   -webkit-text-stroke: 0.3px;
   -webkit-text-stroke-color: black;
 }
-.myslides{
-  display: none;
-}
+
 .motive{
   border-left: 5px double white;
   border-right: 5px double white;
