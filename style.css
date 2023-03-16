@@ -163,15 +163,22 @@ hr.borderline{
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: black;
 }
-.mySlides {display: none;}
-.slide_container img{
-  vertical-align: middle;
+.mySlides {
+  display: none;
 }
-.mySlides img {vertical-align: middle;}
+.mySlides img {
+  vertical-align: middle;
+  width:1240px;
+  height: 540px;
+  margin: 10px;
+}
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  width: 1300px;
+  height: 570px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center; 
+  background-color: black; 
 }
 .videos ul{
   justify-content: space-evenly;
