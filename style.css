@@ -385,11 +385,13 @@ footer p{
     transition: 300ms;
   }
 .slideshow-container {
-  margin:5%;
-  width: 450px;
-  
+  margin:auto;
+  width: 430px;
+  overflow: hidden;
+  object-fit: cover;
+  position: 100%;
 
   }
-  .slideshow-container img{
+  .slideshow-container {
   }
 }
