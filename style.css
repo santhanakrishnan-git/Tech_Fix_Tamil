@@ -166,11 +166,11 @@ hr.borderline{
 .mySlides {
   display: none;
 }
-.mySlides img {
-  vertical-align: middle;
-  width:1240px;
-  height: 540px;
-  margin: 10px;
+.slideshow-container img {
+  margin:5px;
+  object-fit: cover;
+  border: 2px solid silver;
+  border-radius: 5px;
 }
 .slideshow-container {
   width:fit-content;
@@ -384,5 +384,12 @@ footer p{
     border-top:2px solid white;
     transition: 300ms;
   }
+.slideshow-container {
+  margin:5%;
+  width: 450px;
+  
 
   }
+  .slideshow-container img{
+  }
+}
