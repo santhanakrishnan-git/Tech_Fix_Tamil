@@ -173,13 +173,23 @@ hr.borderline{
   margin: 10px;
 }
 .slideshow-container {
-  width: 1300px;
-  height: 570px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  align-items: center; 
-  background-color: black; 
+  width:fit-content;
+  height: auto;
+  margin: 20px;
+  margin-left:10%;
+  border: 6px double rgb(126, 121, 121);
+  border-radius: 10px;
 }
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
 .videos ul{
   justify-content: space-evenly;
   list-style: none;
