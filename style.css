@@ -174,8 +174,7 @@ hr.borderline{
 .slideshow-container {
   width:35%;
   margin:auto;
-  display: flex;
-  flex-wrap: wrap;
+  
   height:400px;
   overflow: hidden;
   margin-top: 10px;
