@@ -167,16 +167,19 @@ hr.borderline{
   display: none;
 }
 .slideshow-container img {
-  margin:5px;
   object-fit: cover;
-  border: 2px solid silver;
-  border-radius: 5px;
+  width: 100%;
+  
 }
 .slideshow-container {
-  width:fit-content;
-  height: auto;
-  margin: 20px;
-  margin-left:10%;
+  width:35%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  height:400px;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: 6px double rgb(126, 121, 121);
   border-radius: 10px;
 }
@@ -386,12 +389,14 @@ footer p{
   }
 .slideshow-container {
   margin:auto;
-  width: 430px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width:fit-content;
   overflow: hidden;
   object-fit: cover;
-
-
+  height: auto;
   }
-  .slideshow-container img {
+  .slideshow-container img{
+    width: auto;
   }
 }
