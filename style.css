@@ -389,9 +389,9 @@ footer p{
   width: 430px;
   overflow: hidden;
   object-fit: cover;
-  position: 100%;
+
 
   }
-  .slideshow-container {
+  .slideshow-container img {
   }
 }
