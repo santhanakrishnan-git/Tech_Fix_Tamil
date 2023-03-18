@@ -174,7 +174,6 @@ hr.borderline{
 .slideshow-container {
   width:35%;
   margin:auto;
-  
   height:400px;
   overflow: hidden;
   margin-top: 10px;
@@ -201,7 +200,7 @@ hr.borderline{
   border-left: 5px double white;
   border-right: 5px double white;
   padding: 5%;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: rgba(245, 245, 220, 0.137);
   width: auto;
   margin-top:10px ;
@@ -217,17 +216,18 @@ hr.borderline{
   background-color: beige;
 }
 
-.videos img{
-  margin: 30px;
+.videos li img{
+  margin: 20px;
   width:500px; 
   height:300px;
   border: 3px double black;
+  border-radius: 10px;
   object-fit: cover;
 }
 .videos h2 a{
   color: white;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: none;
   font-weight: 600;
   padding: 5px;
@@ -325,10 +325,7 @@ footer p{
     margin-left:auto;
     margin-right:auto;
   }
-  .videos ul {
-    margin-left:auto;
-    margin-right:auto;
-  }
+  
   .contact{
     margin-left:auto;
     margin-right:auto;
@@ -364,14 +361,20 @@ footer p{
     height: auto;
     margin: 4%;
   }
+  .videos ul {
+    margin-left:auto;
+    margin-right:auto;
+    width: fit-content;
+    
+  }
   .videos h2 {
     text-align: center;
     width: auto;
   }
-  .videos img{
-    margin: 20px;
-    width:300px; 
-    height:200px;
+  .videos li img{
+    margin: auto;
+    width:100%; 
+    height:auto;
     border: 3px double black;
   }
   .videos h2 a{
