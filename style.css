@@ -1,4 +1,3 @@
-
 *{
   margin:0;
   padding: 0;
@@ -168,8 +167,7 @@ hr.borderline{
 }
 .slideshow-container img {
   object-fit: cover;
-  width: 100%;
-  
+  width: 100%;  
 }
 .slideshow-container {
   width:35%;
@@ -192,17 +190,18 @@ hr.borderline{
 }
 
 .videos ul{
-  justify-content: space-evenly;
+  justify-content:space-around;
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   border-left: 5px double white;
   border-right: 5px double white;
-  padding: 5%;
+  padding: 10px;
   border-radius: 10px;
   background-color: rgba(245, 245, 220, 0.137);
   width: auto;
+  height: auto;
   margin-top:10px ;
   margin-left: 10px;
   margin-right: 10px;
@@ -210,7 +209,6 @@ hr.borderline{
 }
 .videos ul li{
   text-align: center;
-  margin-bottom: 10px;
 }
 .videos ul li h2 :hover{
   color: black;
@@ -219,11 +217,10 @@ hr.borderline{
 
 .videos li img{
   margin: 20px;
-  width:500px; 
-  height:300px;
+  width: 400px; 
+  height: 250px;
   border: 3px double black;
   border-radius: 10px;
-  
 }
 .videos h2 a{
   color: white;
@@ -366,7 +363,6 @@ footer p{
     margin-left:auto;
     margin-right:auto;
     width: fit-content;
-    
   }
   .videos h2 {
     text-align: center;
@@ -397,7 +393,7 @@ footer p{
   width:fit-content;
   overflow: hidden;
   object-fit: cover;
-  height: auto;
+  height: 510px;
   }
   .slideshow-container img{
     width: auto;
